@@ -1,7 +1,7 @@
 # Hi there, I'm Dominic Bertolo
 
 <div align="center">
-  <img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="100">
+  <img src="https://omeka-s.csusb.edu/files/asset/3f0f9c0295b4d88b4e52f526966d88b238b6fa95.png" width="100">
 </div>
 
 I'm currently a fourth-year senior at California State University, San Bernardino double-majoring in Computer Science and Computer Engineering with a minor in Data Science. My goal is to pursue graduate studies (M.S./Ph.D.) to research about vulnerabilities in modern distributed systems.
