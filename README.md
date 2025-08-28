@@ -23,7 +23,7 @@ My fascination with technology lies at the intersection of software development 
 
 In order to better understand vulnerabilities where it concerns commonly used Cloud-based services, I am exploring serverless services such as AWS Lambda and the vulnerabilities that can be taken advantage of if applications are not properly configured or secured.
 
-* **Project:** **[A Practical Investigation of Event Data Injection Vulnerabilities in Go-based AWS Lambda Functions](https://github.com/djbertolo/go-lambda-security-research)**
+* **Project:** **[A Practical Investigation of Event Data Injection Vulnerabilities in Go-based AWS Lambda Functions](https://github.com/djbertolo/aws-go-lambda-security-research)**
 * **Description:** I'm developing a reproducible testbed using **Go**, **AWS Lambda**, and **AWS SAM (Serverless Application Model)** to practically demonstrate, analyze, and document security vulnerabilities in a serverless environment. This hands-on approach allows me to explore the real-world impact of insecure coding patterns in the cloud.
 
 ---
