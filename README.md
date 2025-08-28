@@ -14,7 +14,7 @@ My fascination with technology lies at the intersection of software development 
 
 - 🎓 I'm a final-year B.S. in Computer Science and Computer Engineering student.
 - ☁️ My core interest is **Cloud-Native Application Security**, specifically within serverless architectures.
-- 🔒 I'm currently building my expertise in **Go (Golang)** for its performance and concurrency in cloud environments. You can check out how I'm developing my Go skills [here](https://github.com/djbertolo/learning-go)!
+- <img src="https://camo.githubusercontent.com/a72f086b878c2e74b90d5dbd3360e7a4aa132a219a662f4d83b7c243298fea4d/68747470733a2f2f7261772e6769746875622e636f6d2f676f6c616e672d73616d706c65732f676f706865722d766563746f722f6d61737465722f676f706865722e706e67" width=15> I'm currently building my expertise in **Go (Golang)** for its performance and concurrency in cloud environments. You can check out how I'm developing my Go skills [here](https://github.com/djbertolo/learning-go)!
 - 📄 My ultimate goal is to contribute to the academic field of cybersecurity through focused research.
 
 ---
