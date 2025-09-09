@@ -31,8 +31,8 @@ Here's a snapshot of the technologies and skills I'm developing for vulnerabilit
 
 * **Languages:** [C](https://github.com/djbertolo/learning-c), [Go](https://github.com/djbertolo/learning-go), Lua
 * **Certifications:**
-    * ![CompTIA Security+](https://img.shields.io/badge/CompTIA_Security+-SY0--701-blue?style=for-the-badge&logo=comptia)
-  * ![AWS Certified Cloud Practitioner](https://img.shields.io/badge/AWS_Certified_Cloud_Practitioner-CLF--C01-orange?style=for-the-badge&logo=amazon-aws)
+    * ![CompTIA Security+](https://github.com/djbertolo/AWS-Certified-Cloud-Practitioner-Certificate.pdf)
+  * ![AWS Certified Cloud Practitioner](https://github.com/djbertolo/CompTIA-Security+-Certificate.pdf)
     
 ---
 
