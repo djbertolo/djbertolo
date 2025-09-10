@@ -18,10 +18,13 @@ My fascination with technology lies at the intersection of computer architecture
 - 📄 My ultimate goal is to contribute to the academic field of cybersecurity through research in automated vulnerability discovery and exploit mitigation.
 
 ---
+### 🔭 My Current Research Project: Dep-Trust
 
-### 🔭 My Current Research Project
+I am currently developing **Dep-Trust**, a novel static analysis tool designed to address the critical issue of **software supply chain security**. Inspired by widespread vulnerabilities like Log4j, this project aims to help developers and researchers detect malicious code injected into open-source dependencies.
 
-(WIP)
+Written in **C**, Dep-Trust recursively parses a project's build files to construct a complete dependency graph. The core innovation lies in its **anomaly-based heuristic engine**. Instead of relying on known malware signatures, Dep-Trust flags suspicious libraries by identifying behaviors that deviate from their stated purpose. It detects capability mismatches (e.g., a math library making network calls), analyzes code entropy to find obfuscated payloads, and uncovers other anomalous patterns that traditional tools often miss.
+
+The goal is to create a practical tool that provides a deeper, more context-aware layer of security for the software ecosystem. You can follow the project's development [here](https://github.com/djbertolo/dep-trust)!
 
 ---
 
