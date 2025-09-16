@@ -39,11 +39,21 @@ Here's a snapshot of the technologies and skills I'm developing for vulnerabilit
     
 ---
 
+### 🧑‍💻 Cybersecurity & Coding Profiles
+
+Here are some of the platforms where I actively practice my skills and learn new concepts.
+
+* <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png?20191202080835" width=16>**Leetcode:** https://leetcode.com/u/dominicjb/
+* <img src="https://store.tryhackme.com/cdn/shop/files/THMlogo-gray_scale_824x.png?v=1614347081" width=16>**TryHackMe:** https://tryhackme.com/p/dominicjbertolo
+* <img src="" width=16>**HackerOne:** https://hackerone.com/djbertolo?type=user
+---
+
 ### 📚 Books I'm Reading
 
-* *The C Programming Language, 2nd Edition*
-* *Operating Systems: Three Easy Pieces*
-* *TCP/IP Illustrated, Vol. 1: The Protocols*
+* *The C Programming Language, 2nd Edition* by Brian Kernighan and Dennis Ritchie
+* *Operating Systems: Three Easy Pieces* by Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau
+* *TCP/IP Illustrated, Vol. 1: The Protocols* by W. Richard Stevens
+
 
 ---
 
