@@ -20,11 +20,18 @@ My fascination with technology lies at the intersection of computer architecture
 ---
 ### 🔭 My Current Research Project: Dep-Trust
 
-I am currently developing **Dep-Trust**, a novel static analysis tool designed to address the critical issue of **software supply chain security**. Inspired by widespread vulnerabilities like Log4j, this project aims to help developers and researchers detect malicious code injected into open-source dependencies.
+I am currently developing **Dep-Trust**, a novel static analysis tool designed to address software supply chain security. This project serves as the foundation for my graduate research interests in automated vulnerability discovery.
 
-Written in **C**, Dep-Trust recursively parses a project's build files to construct a complete dependency graph. The core innovation lies in its **anomaly-based heuristic engine**. Instead of relying on known malware signatures, Dep-Trust flags suspicious libraries by identifying behaviors that deviate from their stated purpose. It detects capability mismatches (e.g., a math library making network calls), analyzes code entropy to find obfuscated payloads, and uncovers other anomalous patterns that traditional tools often miss.
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue?style=for-the-badge&logo=github)](https://github.com/djbertolo/dep-trust)
 
-The goal is to create a practical tool that provides a deeper, more context-aware layer of security for the software ecosystem. You can follow the project's development [here](https://github.com/djbertolo/dep-trust)!
+#### Key Features & Methodology
+- **Recursive Dependency Graphing:** Written in C, the tool recursively parses build files (e.g., Makefiles, `go.mod`) to construct a complete, directed graph of all project dependencies.
+- **Anomaly-Based Heuristic Engine:** Instead of relying on signatures, the engine flags suspicious libraries by detecting capability mismatches (e.g., a string-formatting library making network calls) and analyzing code entropy for signs of obfuscation.
+- **Behavioral Fingerprinting:** Each dependency is profiled to create a "normal behavior" baseline, against which future versions can be compared to detect trojan-horse updates.
+
+#### Current Status & Next Steps
+- **In Progress:** Implementing a robust Makefile parser to handle complex C/C++ projects.
+- **Up Next:** Developing the initial heuristic engine to identify anomalous system call patterns in dependency code.
 
 ---
 
@@ -32,10 +39,17 @@ The goal is to create a practical tool that provides a deeper, more context-awar
 
 Here's a snapshot of the technologies and skills I'm developing for vulnerability research:
 
-* **Languages:** [C](https://github.com/djbertolo/learning-c), [Go](https://github.com/djbertolo/learning-go), Lua
+* **Low-Level & Systems Programming**
+   - **C:** In-depth study of memory management, pointers, and system calls for binary analysis
+   - **Go:** Experience building concurrent tooling and implementing complex data structures from scratch (e.g., B+ Trees)
+* **Analysis & Reverse Engineering Tools:**
+   - **Current:** Linux CLI, Wireshark
+   - **Learning:** GDB, Ghidra
+* **Scripting & Automation:**
+   - Python, Lua
 * **Certifications:**
-    * [![CompTIA Security+](https://img.shields.io/badge/CompTIA_Security+-SY0--701-blue?style=for-the-badge&logo=comptia)](https://github.com/djbertolo/djbertolo/blob/main/CompTIA%20Security%2B%20Certificate.pdf)
-  * [![AWS Certified Cloud Practitioner](https://img.shields.io/badge/AWS_Certified_Cloud_Practitioner-CLF--C01-orange?style=for-the-badge&logo=amazon-aws)](https://github.com/djbertolo/djbertolo/blob/main/AWS%20Certified%20Cloud%20Practitioner%20Certificate.pdf)
+   - [![CompTIA Security+](https://img.shields.io/badge/CompTIA_Security+-SY0--701-blue?style=for-the-badge&logo=comptia)](https://github.com/djbertolo/djbertolo/blob/main/CompTIA%20Security%2B%20Certificate.pdf)
+   - [![AWS Certified Cloud Practitioner](https://img.shields.io/badge/AWS_Certified_Cloud_Practitioner-CLF--C01-orange?style=for-the-badge&logo=amazon-aws)](https://github.com/djbertolo/djbertolo/blob/main/AWS%20Certified%20Cloud%20Practitioner%20Certificate.pdf)
     
 ---
 
@@ -43,39 +57,39 @@ Here's a snapshot of the technologies and skills I'm developing for vulnerabilit
 
 Here are some of the platforms where I actively practice my skills and learn new concepts.
 
-* <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png?20191202080835" width=16>**Leetcode:** https://leetcode.com/u/dominicjb/
-* <img src="https://store.tryhackme.com/cdn/shop/files/THMlogo-gray_scale_824x.png?v=1614347081" width=16>**TryHackMe:** https://tryhackme.com/p/dominicjbertolo
-* <img src="" width=16>**HackerOne:** https://hackerone.com/djbertolo?type=user
+- <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png?20191202080835" width=16>**Leetcode:** [dominicjb](https://leetcode.com/u/dominicjb/) (`90+ Problems Solved`)
+- <img src="https://store.tryhackme.com/cdn/shop/files/THMlogo-gray_scale_824x.png?v=1614347081" width=16>**TryHackMe:** [dominicjbertolo](https://tryhackme.com/p/dominicjbertolo) (`Level: 0x2[Apprentice]`)
+- <img src="" width=16>**HackerOne:** [djbertolo](https://hackerone.com/djbertolo?type=user)
 ---
 
 ### 📚 Books I'm Reading
 
-* *The C Programming Language, 2nd Edition* by Brian Kernighan and Dennis Ritchie
-* *Operating Systems: Three Easy Pieces* by Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau
-* *TCP/IP Illustrated, Vol. 1: The Protocols* by W. Richard Stevens
+- *The C Programming Language, 2nd Edition* by Brian Kernighan and Dennis Ritchie
+- *Operating Systems: Three Easy Pieces* by Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau
+- *TCP/IP Illustrated, Vol. 1: The Protocols* by W. Richard Stevens
 
 
 ---
 
 ### 🏫 Coursework I'm Currently Taking (Fall 2025)
 
-* Robotics and Control
-* Computer Engineering Design
-* Contemporary Computer Architecture
-* Parallel Algorithms & Programming
+- Robotics and Control
+- Computer Engineering Design
+- Contemporary Computer Architecture
+- Parallel Algorithms & Programming
 
 ---
 
 
 ### 🌱 My Research Interests for Graduate School
 
-I am eager to explore the following areas in my graduate studies:
+Building on my work with static analysis in the **Dep-Trust** project, I am eager to explore the following areas in my graduate studies:
 
-* Automated vulnerability discovery using advanced fuzzing techniques
-* Static and dynamic binary analysis for bug detection
-* Memory corruption exploits and modern mitigation bypass techniques
-* Operating system kernel security and exploit mitigation
-* Formal methods for software verification
+- Automated vulnerability discovery using advanced fuzzing techniques
+- Static and dynamic binary analysis for bug detection
+- Memory corruption exploits and modern mitigation bypass techniques
+- Operating system kernel security and exploit mitigation
+- Formal methods for software verification
 
 ---
 
@@ -83,5 +97,5 @@ I am eager to explore the following areas in my graduate studies:
 
 I'm always open to discussing systems security, research, or potential collaboration opportunities.
 
-* <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/xbu/linkedin-revised-brand-guidelines/in-logo/fg/brand-inlogo-download-fg-dsk-v01.png/jcr:content/renditions/brand-inlogo-download-fg-dsk-v01-2x.png" width=16> **LinkedIn:** https://www.linkedin.com/in/dominic-bertolo/
-* 📧 **Email:** [dominicjbertolo@gmail.com](mailto:dominicjbertolo@gmail.com)
+- <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/xbu/linkedin-revised-brand-guidelines/in-logo/fg/brand-inlogo-download-fg-dsk-v01.png/jcr:content/renditions/brand-inlogo-download-fg-dsk-v01-2x.png" width=16> **LinkedIn:** https://www.linkedin.com/in/dominic-bertolo/
+- 📧 **Email:** [dominicjbertolo@gmail.com](mailto:dominicjbertolo@gmail.com)
