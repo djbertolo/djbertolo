@@ -59,7 +59,6 @@ Here are some of the platforms where I actively practice my skills and learn new
 
 - <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png?20191202080835" width=16>**Leetcode:** [dominicjb](https://leetcode.com/u/dominicjb/) (`90+ Problems Solved`)
 - <img src="https://store.tryhackme.com/cdn/shop/files/THMlogo-gray_scale_824x.png?v=1614347081" width=16>**TryHackMe:** [dominicjbertolo](https://tryhackme.com/p/dominicjbertolo) (`Level: 0x6[Voyager]`)
-- <img src="" width=16>**HackerOne:** [djbertolo](https://hackerone.com/djbertolo?type=user)
 ---
 
 ### 📚 Books I'm Reading
