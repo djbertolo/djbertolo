@@ -18,22 +18,6 @@ My fascination with technology lies at the intersection of computer architecture
 - 📄 My ultimate goal is to contribute to the academic field of cybersecurity through research in automated vulnerability discovery and exploit mitigation.
 
 ---
-### 🔭 My Current Research Project: Dep-Trust
-
-I am currently developing **Dep-Trust**, a novel static analysis tool designed to address software supply chain security. This project serves as the foundation for my graduate research interests in automated vulnerability discovery.
-
-[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue?style=for-the-badge&logo=github)](https://github.com/djbertolo/dep-trust)
-
-#### Key Features & Methodology
-- **Recursive Dependency Graphing:** Written in C, the tool recursively parses build files (e.g., Makefiles, `go.mod`) to construct a complete, directed graph of all project dependencies.
-- **Anomaly-Based Heuristic Engine:** Instead of relying on signatures, the engine flags suspicious libraries by detecting capability mismatches (e.g., a string-formatting library making network calls) and analyzing code entropy for signs of obfuscation.
-- **Behavioral Fingerprinting:** Each dependency is profiled to create a "normal behavior" baseline, against which future versions can be compared to detect trojan-horse updates.
-
-#### Current Status & Next Steps
-- **In Progress:** Implementing a robust Makefile parser to handle complex C/C++ projects.
-- **Up Next:** Developing the initial heuristic engine to identify anomalous system call patterns in dependency code.
-
----
 
 ### 🛠️ My Tech Stack & Skills
 
@@ -65,7 +49,6 @@ Here are some of the platforms where I actively practice my skills and learn new
 
 - *The C Programming Language, 2nd Edition* by Brian Kernighan and Dennis Ritchie
 - *Operating Systems: Three Easy Pieces* by Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau
-- *TCP/IP Illustrated, Vol. 1: The Protocols* by W. Richard Stevens
 
 
 ---
