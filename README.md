@@ -65,7 +65,7 @@ Here are some of the platforms where I actively practice my skills and learn new
 
 ### 🌱 My Research Interests for Graduate School
 
-Building on my work with static analysis in the **Dep-Trust** project, I am eager to explore the following areas in my graduate studies:
+I am eager to explore the following areas in my graduate studies:
 
 - Automated vulnerability discovery using advanced fuzzing techniques
 - Static and dynamic binary analysis for bug detection
