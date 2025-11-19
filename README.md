@@ -4,80 +4,100 @@
   <img src="https://omeka-s.csusb.edu/files/asset/3f0f9c0295b4d88b4e52f526966d88b238b6fa95.png" width="100">
 </div>
 
-I'm a fourth-year undergraduate at California State University, San Bernardino, double-majoring in Computer Science and Computer Engineering with a minor in Data Science. My goal is to pursue graduate studies (M.S./Ph.D.) focused on **systems security** and **vulnerability research**.
+I'm a Computer Science student at California State University, San Bernardino, with a minor in Data Science. My primary academic interests are in **programming languages**, **type systems**, and **static analysis**. I have an interest in understanding how language design, type theory, and mathematical structure can be used to reason about programs and make software safer.
+
+While I enjoy security, my long-term goal is to approach it through the lens of programming languages utilizing concepts such as static analysis, type systems, and formal methods to prevent vulnerabilities before they exist.
 
 ---
 
-### About Me
+## Current Research: *MiniLua* - Static Type Inference for a Lua-like Language
 
-My fascination with technology lies at the intersection of computer architecture and software security. I'm passionate about understanding how systems work at a low level to discover and analyze security vulnerabilities. My academic background in both computer science and engineering provides the ideal foundation for exploring the complex interactions between hardware and software.
+I am developing **MiniLua**, a research project investigating static type inference for a simplified Lua-like scripting language.
 
-- 🎓 I'm a final-year B.S. in **Computer Science** and **Computer Engineering** student.
-- 🔬 My core interest is **Vulnerability Research**, including reverse engineering, binary analysis, and exploit development.
-- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/1200px-C_Programming_Language.svg.png" width=15> I'm currently strengthening my fundamentals in **C** and **systems programming** to build a solid base for low-level security analysis. You can track my progress [here](https://github.com/djbertolo/learning-c)!
-- 📄 My ultimate goal is to contribute to the academic field of cybersecurity through research in automated vulnerability discovery and exploit mitigation.
+The project explores:
+- Designing a small language with simplified Lua semantics
+- Implementing a lexer, recursive-descent parser, and AST
+- Building a constraint-based type inference system
+- Implementing a Hindley-Milner-style unification engine
+- Detecting type errors, invalid operations, and inconsistent returns
+
+This work is giving me hands-on experience with type systems, constraint solving, language semantics, and the challenges of analyzing dynamic-language features.
 
 ---
 
-### 🛠️ My Tech Stack & Skills
+## Academic Direction & Interests
 
-Here's a snapshot of the technologies and skills I'm developing for vulnerability research:
+### Programming Languages & Type Systems
+- Type Inference (Hindley-Milner)
+- Constraint Generation
+- Semantics & program structure
+- Language and compiler design
 
-* **Low-Level & Systems Programming**
-   - **C:** In-depth study of memory management, pointers, and system calls for binary analysis
-   - **Go:** Experience building concurrent tooling and implementing complex data structures from scratch (e.g., B+ Trees)
-* **Analysis & Reverse Engineering Tools:**
-   - **Current:** Linux CLI, Wireshark
-   - **Learning:** GDB, Ghidra
-* **Scripting & Automation:**
-   - Python, Lua
-* **Certifications:**
-   - [![CompTIA Security+](https://img.shields.io/badge/CompTIA_Security+-SY0--701-blue?style=for-the-badge&logo=comptia)](https://github.com/djbertolo/djbertolo/blob/main/CompTIA%20Security%2B%20Certificate.pdf)
-   - [![AWS Certified Cloud Practitioner](https://img.shields.io/badge/AWS_Certified_Cloud_Practitioner-CLF--C01-orange?style=for-the-badge&logo=amazon-aws)](https://github.com/djbertolo/djbertolo/blob/main/AWS%20Certified%20Cloud%20Practitioner%20Certificate.pdf)
+### Static Analysis
+- Control-flow reasoning
+- Type error detection
+- Abstract representation of dynamic features
+- Building sound models of program behavior
+
+### Security
+
+I am especially interested in using programming language techniques to solve security problems:
+- Static detection of vulnerabilities
+- Type-based memory safety
+- Safer language and compiler design
+- Formal reasoning to eliminate classes of bugs
+
+My goal is to work at the intersection of programming languages and security research.
+
+---
+
+## Coursework
+
+For the Fall 2025 semester, my aim with my class selection was to explore the engineering side of the Computer Science and Engineering department at my university. I wished to expand the breadth of my knowledge past my Computer Science coursework. As it was iconically said in *Oppenheimer (2023)*, theory will only take you so far. In my coursework, I have gotten to work directly with embedded devices, various sensors and have created numerous block diagrams.
+
+Here is the list of my Fall 2025 coursework:
+- Robotics and Control with Dr. Haiyan Qiao
+- Computer Engineering Design with Dr. Yunfei Hou
+- Contemporary Computer Architecture with Dr. Nazanin Ghasemian
+- Parallel Algorithms & Programming with Dr. Ahmad Abu Shanab
+
+For the Spring 2026 semester, my aim with my class selection is to reinforce my mathematics foundations, and expand on areas of interest. I aim to expand my computer systems knowledge with coursework in Operating Systems, while studying fundamentals to mathematical theory.
+
+Here is the list of my Spring 2026 coursework:
+- Multivariable Calculus
+- Mathematical Thinking: Communication and Proofs
+- Advanced Operating Systems
+
+---
+
+## Technical Skills
+
+- **Languages**
+	- **C** - systems & low-level fundamentals
+	- **Go** - concurrency & data structure implementations
+	- **Python** - scripting, tooling, data work
+	- **Lua** - reference language for MiniLua's design
+
+- **Tools**
+	- Linux CLI
+	- Basic debugging tools
+	- Custom compiler components (lexer, parser, inference engine)
+
+- **Certifications:**
+	- [![CompTIA Security+](https://img.shields.io/badge/CompTIA_Security+-SY0--701-blue?style=for-the-badge&logo=comptia)](https://github.com/djbertolo/djbertolo/blob/main/CompTIA%20Security%2B%20Certificate.pdf)
+	- [![AWS Certified Cloud Practitioner](https://img.shields.io/badge/AWS_Certified_Cloud_Practitioner-CLF--C01-orange?style=for-the-badge&logo=amazon-aws)](https://github.com/djbertolo/djbertolo/blob/main/AWS%20Certified%20Cloud%20Practitioner%20Certificate.pdf)
     
 ---
 
-### 🧑‍💻 Cybersecurity & Coding Profiles
+## Books I'm Reading
 
-Here are some of the platforms where I actively practice my skills and learn new concepts.
-
-- <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png?20191202080835" width=16>**Leetcode:** [dominicjb](https://leetcode.com/u/dominicjb/) (`90+ Problems Solved`)
-- <img src="https://store.tryhackme.com/cdn/shop/files/THMlogo-gray_scale_824x.png?v=1614347081" width=16>**TryHackMe:** [dominicjbertolo](https://tryhackme.com/p/dominicjbertolo) (`Level: 0x7[Adept]`)
----
-
-### 📚 Books I'm Reading
-
-- *The C Programming Language, 2nd Edition* by Brian Kernighan and Dennis Ritchie
-- *Operating Systems: Three Easy Pieces* by Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau
-
+Recently I have finished reading *The C Programming Language, 2<sup>nd</sup> edition* by Brian Kernighan and Dennis Ritchie, as well as *Learning Go: An Idiomatic Approach to Real-World Go Programming* by Jon Bodner. I have recently begun reading *Crafting Interpreters* by Robert Nystrom, and plan to begin *Operating Systems: Three Easy Pieces* by Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau.
 
 ---
 
-### 🏫 Coursework I'm Currently Taking (Fall 2025)
+## 📫 How to Reach Me
 
-- Robotics and Control
-- Computer Engineering Design
-- Contemporary Computer Architecture
-- Parallel Algorithms & Programming
-
----
-
-
-### 🌱 My Research Interests for Graduate School
-
-I am eager to explore the following areas in my graduate studies:
-
-- Automated vulnerability discovery using advanced fuzzing techniques
-- Static and dynamic binary analysis for bug detection
-- Memory corruption exploits and modern mitigation bypass techniques
-- Operating system kernel security and exploit mitigation
-- Formal methods for software verification
-
----
-
-### 📫 How to Reach Me
-
-I'm always open to discussing systems security, research, or potential collaboration opportunities.
+I'm always open to discussing research, potential collaboration opportunities, or book recommendations.
 
 - <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/xbu/linkedin-revised-brand-guidelines/in-logo/fg/brand-inlogo-download-fg-dsk-v01.png/jcr:content/renditions/brand-inlogo-download-fg-dsk-v01-2x.png" width=16> **LinkedIn:** https://www.linkedin.com/in/dominic-bertolo/
 - 📧 **Email:** [dominicjbertolo@gmail.com](mailto:dominicjbertolo@gmail.com)
